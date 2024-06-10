@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+h1{
+  background-color: #00008B;
+  text-align: center;
+  color: White;
+}
+
+.flex-container {
+  display: grid;
+  grid-template-columns: 220px 220px 220px;
+  grid-template-rows: 170px 170px 170px;
+  background-color: #FFFDD0;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: White;
+  width: 200px;
+  height: 150px; /* Adjust height for better display */
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: Black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Ensure the image doesn't overflow the container */
+}
+
+.flex-container > div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire space */
+}
+</style>
+</head>
+<body>
+
+<h1>Flex Grid Activity :))</h1>
+
+<div class="flex-container">
+  <div><img src="toji.jpg" alt="Toji"></div>
+  <div><img src="nanami.jpg" alt="Nanami"></div>
+  <div><img src="maki.jpg" alt="Maki"></div>  
+  <div><img src="sukuna.jpg" alt="Sukuna"></div>
+  <div><img src="suguru.jpg" alt="Sugur"></div>
+  <div><img src="choso.png" alt="Choso"></div>  
+  <div><img src="megumi.jpg" alt="Megumi"></div>  
+  <div><img src="gojo.jpg" alt="Gojo"></div>  
+  <div><img src="nobara.jpg" alt="Nobara"></div>  
+</div>
+
+</body>
+</html>

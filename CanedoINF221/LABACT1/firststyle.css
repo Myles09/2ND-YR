@@ -1,0 +1,141 @@
+body {
+   margin: 0px;
+   margin-top: -1px;
+   
+ }
+ h1 {
+   font-family: 'arial';
+   color:  #000000;
+ }
+ h2 {
+   font-family: 'arial';
+   color:  #000000;
+ }
+ 
+ header *{
+   display: flex;
+   height: 50px;
+   line-height: 50px; 
+ }
+ a:hover{
+   text-decoration: underline;
+   color: black;
+    
+ }
+ header  {
+   font-family: Arial, Helvetica, sans-serif;
+   padding-bottom: 20px;
+   display: flex; 
+   justify-content: space-between; 
+   align-items: center; 
+ }
+
+ header a {
+   text-decoration: none;
+   color: black;
+   
+}
+ 
+ header ul {
+   padding: 0px;
+   display: flex;
+   list-style: none;
+}
+ 
+ header li {
+   margin-left: 30px;
+}
+ 
+ section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ 
+ #home .profile-img {
+    width: 300px;
+    border-radius: 0; 
+}
+ 
+ 
+ footer {
+    text-align: center;
+    padding: 7px;
+    background-color:#a1ecdb;
+}
+ 
+ #home h1 {
+    font-size: 3.8em;
+}
+ section h2 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+ ul.myUL{
+   display: inline-block;
+   text-align: left;
+   font-family: 'arial';
+
+}
+ section h3 {
+    font-size: 2em;
+    text-align: center;
+}
+ section p {
+   font-size: 18px;
+}
+
+/*----socmed---*/
+
+.socmed{
+  word-spacing: 7rem;
+  text-align: center;
+}
+.facebook{
+   font-size: 30px;
+   color: #000000;
+}
+.facebook:hover{
+   color: blue;
+   
+}
+
+.instagram{
+   font-size: 30px;
+   color: #000000;
+}
+.instagram:hover{
+   color:#cc0066;
+   
+}
+
+.tiktok{
+   font-size: 30px;
+   color: #000000;
+   
+}
+.tiktok:hover{
+   background-color: #000000;
+   color: white;
+   border-radius: 5px;
+   
+}
+
+ /* bg images */
+ #home {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('bg1.jpg');
+    background-size: cover;
+ }
+ 
+ #pr {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('bg2.png');
+    background-size: cover;
+ }
+ 
+ #contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('bg3.jpg');
+    background-size: cover;
+ }
